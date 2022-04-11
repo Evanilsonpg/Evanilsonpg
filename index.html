@@ -21,130 +21,176 @@
     width: auto;
     max-width: 100%;
     border-radius: 50%;
+}
 
-  }
+
+.corPrimaria {
+  background-color: #18bc9c;
+}
+
+.corSecundaria{
+  background-color: #2c3e50;
+}
+
+p {
+  font-family: Lato, 'Helvetica Neue', Helvetica, arial, sans-serif;
+  color: black !important;
+}
+
+.icones {
+  padding-left: 5px;
+}
+
+.titulosBrancos {
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.titulosVerdes {
+  text-underline-position: below;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #18bc9c;
+}
+
+.textoBranco {
+  color: white !important;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.textoFooter {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 </style>
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Evanilson Rodrigues</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            
-          </ul>
-
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre mim</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Depoimentos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-          </ul>
-
-        </div>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+       <h3 class="textoBranco">Portfólio 1</h3>
       </nav>
 
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center corPrimaria">
         <div class="container">
 
           <img class="foto-perfil" src ="./img/jovem h.jpg" alt="">
 
-          <h1 class="jumbotron-heading">Evanilson Rodrigues</h1>
-          <p class="lead text-muted">Desenvolvedor - Front-end Júnior - Html, Css, Bootstrap & JavaScript </p>
+          <h2 class="jumbotron-heading textoBranco">Evanilson Rodrigues</h2>
+          <p class="lead textoBranco">Desenvolvedor - Front-end Júnior - Html, Css, Bootstrap & JavaScript </p>
           <p>
             <a href="#" class="btn btn-dark my-2">Contato</a>
           </p>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="textoBranco fab fa-linkedin"></i></a>
+          <a href="#"><i class="textoBranco icones fab fa-github"></i></a>
+          <a href="#"><i class="textoBranco icones fab fa-instagram"></i></a>
         </div>
       </section>
 
-      <div class="container">
 
-        <div class="row">
-          
-          <div class="col-md-6">
-
-            <div class="card mb-4 box-shadow">
-
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x 225]" src="img/img codigo.jpg">
-
-              <div class="card-body">
-
-                <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este projeto é o meu segundo Portfólio onde criei baseado em tudo que aprendi.</font></font></p>
-
-                <ul>
-
-                  <li>Html5</li>
-                  <li>Css3</li>
-                  <li>JavaScript</li>
-      
-                </ul>
-
-                <div class="d-flex justify-content-between align-items-center">
-
-                  <div class="btn-group">
-
-                    <a href="#"><button type="button" class="btn btn-sm btn-outline-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto!</font></font></button></a>
-
-                    <a href="#"><button type="button" class="btn btn-sm btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Código</font></font></button></a>
-
+      <div class="album py-5 bg-light" id="projetos">
+        <div class="container ">
+          <h2 class="jumbotron-heading text-center titulosVerdes">
+            Projetos
+          </h2>
+          <div class="row">
+        
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x 225]" src="img/img codigo.jpg">
+                <div class="card-body">
+                  <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este projeto é o meu segundo Portfólio onde criei baseado em tudo que aprendi.</font></font></p>
+                  <ul>
+                    <li>Html5</li>
+                    <li>Css3</li>
+                    <li>JavaScript</li>
+        
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto!</font></font></button></a>
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Código</font></font></button></a>
+                    </div>
+        
                   </div>
-                  
                 </div>
-
               </div>
-
             </div>
-
-          </div>
-
-          <div class="col-md-6">
-
-            <div class="card mb-4 box-shadow">
-
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x 225]" src="img/img codigo.jpg">
-
-              <div class="card-body">
-
-                <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este é um projeto android em que fala quem a criou, e toda a sua historia.</font>  </font></font></p>
-
-                <ul>
-                  <li>Html5</li>
-                  <li>Css3</li>
-                  <li>JavaScript</li>
-                </ul>
-
-                <div class="d-flex justify-content-between align-items-center">
-
-                  <div class="btn-group">
-
-                    <a href="#"><button type="button" class="btn btn-sm btn-outline-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto!</font></font></button></a>
-
-                    <a href="#"><button type="button" class="btn btn-sm btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Código</font></font></button></a>
-
+            <div class="col-md-6">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Miniatura [100% x 225]" src="img/img codigo.jpg">
+                <div class="card-body">
+                  <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este é um projeto android em que fala quem a criou, e toda a sua historia.</font>  </font></font></p>
+                  <ul>
+                    <li>Html5</li>
+                    <li>Css3</li>
+                    <li>JavaScript</li>
+                  </ul>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-success"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver Projeto!</font></font></button></a>
+                      <a href="#"><button type="button" class="btn btn-sm btn-outline-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Código</font></font></button></a>
+                    </div>
+        
                   </div>
-                  
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    
+
+    <!--Sobre Mim-->
+
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+      <div class="container">
+        <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+        <p class="lead textoBranco">Olá meu nome é Evanilson, tenho 18 anos e sou um Dev front-end Júnior.
+          Sou apaixonado por tecnologia e estou buscando uma vaga no mercado de trabalho pra mostrar o meu potencial.
+        </p>
+      </div>
+    </section>
+
+    <!--Depoimentos-->
+
+    <section class="jumbotron text-center" style="background-color: white !important" id="depoimentos">
+      <div class="container">
+        <h2 class="jumbotron-heading text-center titulosVerdes">
+          Depoimentos
+        </h2>
+
+        <blockquote class="blockquote text-center">
+          <p class="mb-0">Um Jovem com um foco enorme em suas tarefas diárias, além  da simples dedicação do dia a dia na empresa.</p>
+        </blockquote>
+
+      </div>
+    </section>
+
+    <!--Contato-->
+
+    <section class="corPrimaria" id="contato">
+      <div>
+        <div class="container-fluid">
+          <h4 style="padding-top: 60px;" class="text-center titulosBrancos ">Disponível para oportunidades</h4>
+          <a href="mailto: evanilsonalvesrodrigues2004@gmail.com"><h6 style="padding-bottom: 60px; margin-bottom: 0;" class="text-center">evanilsonalvesrodrigues2004@gmail.com</h6></a>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class="text-center corSecundaria textoFooter">
+      <p class="textoBranco"> Evanilson Alves Rodrigues 2022 </p>
+    </footer>
 
 </body>
 </html>
