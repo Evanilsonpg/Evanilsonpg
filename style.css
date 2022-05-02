@@ -236,7 +236,7 @@ section {
 }
 
 .about {
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about .title {
@@ -336,8 +336,10 @@ section {
 
 /*Habilidades*/
 
-.container {
-    padding: 0 26px;
+.container-1 {
+    padding: 0 16px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
 
@@ -390,6 +392,10 @@ section {
     font-size: 52px;
   }
 
+  .portfolio #github {
+      font-size: 52px;
+  }
+
   @media (max-width: 600px) {
     .box {
       padding: 2rem;
@@ -404,3 +410,86 @@ section {
         margin-bottom: 20px;
     }
 }
+
+/*Cards*/
+
+.projetos {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 70px;    
+    color: #00804b;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    background: #00804b;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.container .card {
+    border-radius: 10px;
+    max-width: 300px;
+    position: relative;
+    height: 160px;
+    background: #f0f0f0;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column; 
+    transition: 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+.container .card:hover {
+    height: 420px;
+
+}
+
+
+.container .card .imgbx {
+    border-radius: 10px;
+    position: relative;
+    width: 260px;
+    top: -60px;
+    left: 2px;
+    z-index: 1;
+    box-shadow:  0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+.container .card .imgbx img {
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+
+
+.container .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+/* Fim Cards*/
