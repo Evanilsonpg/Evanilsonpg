@@ -18,12 +18,17 @@ html {
 
 /*navbar*/
 
+nav .sticky {
+    padding: 5px 10px;
+    background: #FFF;
+}
+
 .navbar {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    background: #00804b;
+    justify-content: space-between; 
+    background: #00804b;    
     padding: 15px;
 }
 
