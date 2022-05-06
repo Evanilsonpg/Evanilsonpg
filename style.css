@@ -29,7 +29,7 @@ nav .sticky {
     align-items: center;
     justify-content: space-between; 
     background: #00804b;    
-    padding: 15px;
+    padding: 10px;
 }
 
 .navbar span {
@@ -37,12 +37,14 @@ nav .sticky {
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     margin-left: 29px;
+    margin: 10px;
 }
 
 .navbar .portfolio {
     color: rgb(43, 255, 0);
     font-family: 'Ubuntu', sans-serif;
-    margin-left: -1px;
+    margin-left: -11px;
+    padding: 10px;
 }
 
 .navbar a {
@@ -80,7 +82,7 @@ nav .sticky {
 
     .navbar a {
         font-size: 20px;
-
+        
     }
 
     .list {
@@ -504,5 +506,71 @@ section {
 /* Fim Cards*/
 
 
+/*Footer*/
 
+footer {
+    position: relative;
+    width: 100%;
+    background: rgb(245, 244, 244);
+    min-height: 100px;
+    padding: 20px 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer .social-icon, footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 ;
+    flex-wrap: wrap;
+}
+
+footer .social-icon li, footer .menu li {
+    list-style: none;
+
+}
+
+footer .social-icon li a {
+    font-size: 2em;
+    color: #FFF;
+    margin: 0 20px;
+    transition: 0.5s;
+    color: blue;
+    flex-direction: column;
+}
+
+footer .social-icon li a:hover {
+    transform: translateY(-10px);
+
+
+}
+
+footer .menu li a {
+    font-size: 1.2em;
+    color: #FFF;
+    margin: 0 10px;
+    display: inline-block;
+    color: blue;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover {
+    opacity: 1;
+}
+
+footer p {
+    color: #00804b;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
 
