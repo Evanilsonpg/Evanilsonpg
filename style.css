@@ -523,7 +523,7 @@ footer {
     font-family: 'Ubuntu', sans-serif;
 }
 
-footer .social-icon, footer .menu {
+footer .social-icon {
     position: relative;
     display: flex;
     justify-content: center;
@@ -532,38 +532,21 @@ footer .social-icon, footer .menu {
     flex-wrap: wrap;
 }
 
-footer .social-icon li, footer .menu li {
+footer .social-icon li {
     list-style: none;
 
 }
 
 footer .social-icon li a {
     font-size: 2em;
-    color: #FFF;
-    margin: 0 20px;
+    margin: 0 16px;
     transition: 0.5s;
     color: blue;
     flex-direction: column;
 }
 
 footer .social-icon li a:hover {
-    transform: translateY(-10px);
-
-
-}
-
-footer .menu li a {
-    font-size: 1.2em;
-    color: #FFF;
-    margin: 0 10px;
-    display: inline-block;
-    color: blue;
-    text-decoration: none;
-    opacity: 0.75;
-}
-
-footer .menu li a:hover {
-    opacity: 1;
+    color: #316aee;
 }
 
 footer p {
