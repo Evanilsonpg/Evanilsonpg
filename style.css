@@ -380,31 +380,31 @@ section {
 
   .portfolio #html {
     color:#F75600 ;
-    font-size: 52px;
+    font-size: 48px;
   }
 
   .portfolio #css {
     color: #2862E9;
-    font-size: 52px;
+    font-size: 48px;
   }
   
   .portfolio #js {
     color: #EFD81D;
-    font-size: 52px;
+    font-size: 48px;
   }
   
   .portfolio #bootstrap {
     color: #6832B0;
-    font-size: 52px;
+    font-size: 48px;
   }
   
   .portfolio #react {
     color: #5ED3F3;
-    font-size: 52px;
+    font-size: 48px;
   }
 
   .portfolio #github {
-      font-size: 52px;
+      font-size: 48px;
   }
 
   @media (max-width: 600px) {
@@ -501,6 +501,25 @@ section {
     opacity: 1;
     margin-top: -40px;
     transition-delay: 0.3s;
+}
+
+.container .card:hover .content h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+}
+
+.container .card:hover .content p {
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #00804b;
+}
+
+.container .card:hover .content .cordel {
+    color: #2862E9;
+}
+
+.container .card:hover .content .spotify {
+    color: rgb(58, 255, 68);
 }
 
 /* Fim Cards*/
