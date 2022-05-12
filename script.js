@@ -32,3 +32,6 @@ sr.reveal('.card', {
     duration: 3000
 });
 // Fim efeitos scroll
+
+// Habilidades
+

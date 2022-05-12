@@ -407,12 +407,23 @@ section {
       font-size: 48px;
   }
 
+  .span {
+      display: flex;
+      font-size: 18px;
+      margin-left: 44%;
+      margin-top: 25px;
+      font-family: 'Poppins' sans-serif;
+      color: #00804b;
+      cursor: pointer;
+  }
+
   @media (max-width: 600px) {
     .box {
       padding: 2rem;
       margin-top: 10px;
       border-radius: 30px;
     }
+
     .box:first-child {
       padding: 3rem;
     }
@@ -568,6 +579,20 @@ footer .social-icon li a:hover {
     color: #316aee;
 }
 
+footer .contato li {
+    padding: 10px;
+    list-style: none;
+    color: #000000;
+}
+
+footer .contato .zap {
+    color: #00804b;
+    font-size: 1.6em;
+    margin-right: 7px;
+}
+
+
+
 footer p {
     color: #00804b;
     text-align: center;
@@ -575,4 +600,3 @@ footer p {
     margin-bottom: 30px;
     font-size: 1.1em;
 }
-
