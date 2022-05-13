@@ -33,3 +33,28 @@ sr.reveal('.card', {
 });
 // Fim efeitos scroll
 
+
+//habilidades
+
+
+   var verMais = document.querySelector('.portfolio h4');
+
+   verMais.addEventListener('click', ()=> {
+
+   var portfolio = document.querySelector('.portfolio p');
+
+   if(portfolio.classList.contains('mostrar')){
+
+    verMais.innerHTML = 'Ver mais!'
+    portfolio.classList.remove('mostrar');
+    
+
+   } else {
+
+       verMais.innerHTML = 'Ocultar'
+       portfolio.classList.add('mostrar');
+   }
+
+});
+
+// Fim Habilidades

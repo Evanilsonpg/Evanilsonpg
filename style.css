@@ -407,6 +407,43 @@ section {
       font-size: 48px;
   }
 
+  .portfolio h4 {
+      cursor: pointer;
+       margin-bottom: 30px;
+      margin-top: 30px;
+      color: #ffffff;
+      
+  }
+
+ h4 {
+    display: inline-block;
+    background: crimson;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+h4:hover {
+    color: crimson;
+    background: none;
+}
+
+  .portfolio p {
+      height: 1px;
+      overflow: hidden;
+      transition: 1s ease-in-out;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      color: #00804b;
+  }
+
+  .mostrar {
+      height: 207px !important;
+  }
 
   @media (max-width: 600px) {
     .box {
