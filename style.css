@@ -407,15 +407,6 @@ section {
       font-size: 48px;
   }
 
-  .span {
-      display: flex;
-      font-size: 18px;
-      margin-left: 44%;
-      margin-top: 25px;
-      font-family: 'Poppins' sans-serif;
-      color: #00804b;
-      cursor: pointer;
-  }
 
   @media (max-width: 600px) {
     .box {

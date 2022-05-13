@@ -33,5 +33,3 @@ sr.reveal('.card', {
 });
 // Fim efeitos scroll
 
-// Habilidades
-
