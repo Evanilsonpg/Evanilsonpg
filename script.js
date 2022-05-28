@@ -34,6 +34,17 @@ sr.reveal('.card', {
 // Fim efeitos scroll
 
 
+//Dark Theme início
+
+chk = document.querySelector('#chk');
+
+chk.addEventListener('change', ()=> {
+    document.body.classList.toggle('dark')
+})
+
+//Dark Theme fim
+
+
 //habilidades
 
 

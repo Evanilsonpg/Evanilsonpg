@@ -3,8 +3,17 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    transition: background 0.2s linear;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 html {
@@ -242,8 +251,59 @@ nav .sticky {
 
 /*Início Sobre*/
 
+
+body.dark {
+    background: #5a5a5a;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    margin: 0 47%;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 20px;
+    width: 46px;
+    transform: scale(1.5);
+}
+
+.label .ball {
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    height: 20px;
+    width: 20px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: #f1c40f;
+    font-size: 13px;
+}
+.fa-sun {
+    color: #fda10b;
+    font-size: 13px;
+}
+
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .about {
@@ -281,6 +341,7 @@ section {
     padding: 5px;
     background: #FFF;
     transform: translate(-50%);
+    border-radius: 10px;
 }
 
 .about .about-content {
@@ -322,6 +383,7 @@ section {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .about .about-content .right a {
@@ -618,8 +680,6 @@ footer .contato .zap {
     font-size: 1.6em;
     margin-right: 7px;
 }
-
-
 
 footer p {
     color: #00804b;
