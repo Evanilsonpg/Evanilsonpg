@@ -1,6 +1,6 @@
 <div>
   <h1 align="center">Oi Tudo bem? Eu sou o <a href="https://www.linkedin.com/in/edududuribeiro/"><i>Nilson</i></a> 😃️</h1>
-  <h3 align="center">Eu sou um desenvolvedor Júnior.
+  <h3 align="center">Eu sou um desenvolvedor Front-End.
  <br>
     <br>
   <p align="center">Este é meu histórico e logo abaixo todas as tecnologias que ultilizo no meu dia a dia! 😉️</h2>
