@@ -608,14 +608,14 @@ section {
   @media(max-width: 635px) {
     .skills-bar{
         width: 400px;
-        margin: 20px auto;
+        margin: 20px 0 0 auto;
     }
   }        
   
   @media(max-width: 430px) {
       .skills-bar{
         width: 350px;
-        margin: 20px auto;
+        margin: 20px 0 0 auto;
       }
   }
   
