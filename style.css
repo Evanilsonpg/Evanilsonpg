@@ -503,6 +503,36 @@ h4:hover {
       color: #00804b;
   }
 
+  .skills-bar {
+      margin: auto;
+      width: 600px;
+      background: #FFF;
+      border-radius: 10px;
+      padding: 25px 30px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  }
+
+  .skills-bar .bar {
+      margin: 20px 0;
+  }
+
+  .skills-bar .bar:first-child {
+     margin-top: 0;
+  }
+
+  .skills-bar .bar .info span {
+     font-size: 17px;
+    font-weight: 500;
+  }
+
+  .skills-bar .bar .progress-line {
+      height: 10px;
+      width: 100%;
+      background: #f0f0f0;
+      
+  }
+
+
   .mostrar {
       height: 207px !important;
   }
