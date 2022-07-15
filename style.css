@@ -37,8 +37,11 @@ nav .sticky {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; 
-    background: #00804b;    
+    background: transparent;    
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .navbar span {
@@ -86,7 +89,6 @@ nav .sticky {
         width: 100%;
         max-height: 0;
         overflow: hidden;
-
     }
 
     .navbar a {
@@ -132,7 +134,7 @@ nav .sticky {
 
 .home .home-content .text-1 {
     font-size: 27px;
-    margin-top: 80px;
+    margin-top: 170px;
     margin-left: 20px;
 }
 
@@ -285,8 +287,8 @@ body.dark {
     left: 2px;
     height: 20px;
     width: 20px;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
+    transform: translateX(-2px);
+    transition: transform 0.5s linear;
 }
 
 .checkbox:checked + .label .ball {
@@ -357,7 +359,7 @@ section {
 
 .about .about-content .left img {
     height: 400px;
-    width: 230px;
+    width: 400px;
     object-fit: cover;
     border-radius: 12px;
     margin-left: 10px;
@@ -520,17 +522,106 @@ h4:hover {
      margin-top: 0;
   }
 
+  .skills-bar .bar .info {
+      margin-bottom: 5px;
+  }
+
   .skills-bar .bar .info span {
      font-size: 17px;
     font-weight: 500;
   }
 
   .skills-bar .bar .progress-line {
+      position: relative;
       height: 10px;
       width: 100%;
       background: #f0f0f0;
-      
+      border-radius: 10px;
+      transform: scaleX(0);
+      transform-origin: left;
+      box-shadow: inset 0px 1px 1px rgba(0,0,0,0.05), 0px 1px rgba(255,255,255,0.08) ;
+      animation: animation 1s cubic-bezier(1,0,0.5,1) forwards;
   }
+
+  .skills-bar .bar .progress-line span {
+      height: 100%;
+      width: 60%;
+      background: #6665ee;
+      position: absolute;
+      border-radius: 10px;
+      transform: scaleX(0);
+      transform-origin: left;
+      animation: animation 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+
+  @keyframes animation {
+      100%{
+          transform: scaleX(1);
+      }
+  }
+
+  .progress-line.html span {
+    width: 90%;
+ }
+ .progress-line.css span {
+    width: 80%;
+ }
+ .progress-line.javascript span {
+    width: 90%;
+ }
+ .progress-line.react span {
+    width: 60%;
+ }
+ .progress-line.bootstrap span {
+    width: 50%;
+ }
+ .progress-line.git span {
+    width: 90%;
+ }    
+
+  .skills-bar .bar .progress-line span::before {
+      position: absolute;
+      content: '';
+      right: 0;
+      top: -10px;
+      height: 0;
+      width: 0;
+      border: 7px solid transparent;
+      border-bottom-width: 0px;
+      border-right-width: 0px;
+      border-top-color: #000;
+  }
+
+  .skills-bar .bar .progress-line span::after {
+      position: absolute;
+      right: 0;
+      top: -28px;
+      background: #000;
+      color: #FFF;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 1px 8px;
+      border-radius: 3px;
+  }
+
+  .progress-line.html span::after {
+     content: '90%';
+  }
+  .progress-line.css span::after {
+     content: '80%';
+  }
+  .progress-line.javascript span::after {
+     content: '90%';
+  }
+  .progress-line.react span::after {
+     content: '60%';
+  }
+  .progress-line.bootstrap span::after {
+     content: '50%';
+  }
+  .progress-line.git span::after {
+     content: '90%';
+  }                                                                                                                                        
 
 
   .mostrar {
