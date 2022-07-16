@@ -63,7 +63,8 @@ nav .sticky {
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     margin-right: 30px;
-    color: rgb(255, 243, 228);
+    color: rgb(30, 255, 0);
+    font-weight: 600;
 }
 
 .navbar a:hover {
@@ -550,7 +551,7 @@ section {
     width: 80%;
  }
  .progress-line.javascript span {
-    width: 70%;
+    width: 90%;
  }
  .progress-line.react span {
     width: 85%;
@@ -639,6 +640,24 @@ section {
     text-align: center;
     margin-top: 70px;    
     color: #00804b;
+}
+
+.link-projets {
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 4px solid rgb(219, 219, 219);
+    transition: all 0.3s ease;
+}
+
+.link-projets:hover {
+    color: crimson;
+    background: none;
 }
 
 .container {
