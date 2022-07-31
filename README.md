@@ -17,7 +17,7 @@
 
 <h2 align='center'>Sobre</h2>
 
-No **Portfólio** Contém a página de início onde está meu nome e tbm possui o botão de me contratar onde irá abrir o seu email para contato, logo abaixo uma descrição sobre mim. Na parte de projetos criados estão os projetos em que demorei mais tempo para poder criá-lo e por fim uma aba para contato!
+No **Portfólio** Possui a página de início onde está meu nome e tbm possui o botão de me contratar onde irá abrir o seu email para contato, logo abaixo uma descrição sobre mim. Na parte de projetos criados estão os projetos em que demorei mais tempo para poder criá-lo e por fim uma aba para contato!
 <br/>
 <br/>
 
